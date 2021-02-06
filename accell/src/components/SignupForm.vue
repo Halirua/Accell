@@ -77,4 +77,10 @@ button:hover{
   color:#d9f0f8
  
 }
+
+@media only screen and (max-width: 400px){
+  form{
+    width: 80vw;
+  }
+}
 </style>

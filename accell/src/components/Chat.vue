@@ -159,8 +159,7 @@ li {
     width: 100vw
   }
   .chats{
-
-  width: 100vh;
+  width: 100vh;;
   }
 }
 </style>

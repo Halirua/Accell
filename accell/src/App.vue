@@ -32,6 +32,7 @@ body{
   display: flex;
   align-items: center;
   width: 100vw;
+  margin: 0;
 }
 #nav-right {
   width: 80vw;
@@ -58,4 +59,11 @@ body{
   color: #1f82a2;
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px){
+#nav a{
+  font-size: 20px;
+}
+}
+
 </style>
