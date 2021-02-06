@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <form @submit.prevent="">
-      <h1>Sign Up!</h1>
+      <h1>Sign Up and Accellerate your learning!</h1>
       <label for="name">Name</label>
       <input type="text" id="name" />
       <br />
