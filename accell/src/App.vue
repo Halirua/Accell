@@ -1,28 +1,60 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app"> <div id="nav">
+      <div id="nav-left">
+        <router-link to="/">Home</router-link>
+      </div>
+      <div id="nav-right">
+        <router-link to="/login">SignUp</router-link>
+        <router-link to="/about">About Us</router-link>
+      </div>
+    </div>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body{
+  margin: 0
+}
+#nav {
+  padding: 30px;
+  background-color: #92d4ea;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+#nav-right {
+  width: 80vw;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+#nav-left{
+  display: flex;
+  align-items: center;
+}
+#nav a {
+  font-weight: bold;
+  color: #061b22;
+  font-size: 2em;
+  margin: 0 .6em;
+   text-decoration: none;
+}
+#nav a:hover {
+  color: #1f82a2;
+  text-decoration: underline;
+}
+#nav a.router-link-exact-active {
+  color: #1f82a2;
+  text-decoration: underline;
 }
 </style>
