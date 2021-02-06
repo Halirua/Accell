@@ -151,4 +151,16 @@ h1 {
 li {
   list-style-type: none;
 }
+@media only screen and (max-width: 800px){
+  .videoChat{
+    display: none;
+  }
+  .textChat{
+    width: 100vw
+  }
+  .chats{
+
+  width: 100vh;
+  }
+}
 </style>
