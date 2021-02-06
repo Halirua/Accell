@@ -120,6 +120,7 @@ h1 {
   border-radius: 2em;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 .computerMessages {
   width: 40%;
@@ -156,10 +157,11 @@ li {
     display: none;
   }
   .textChat{
-    width: 100vw
+    width: 100vw;
+    margin-bottom: 30%;
   }
   .chats{
-  width: 100vh;;
+  width: 100vh;
   }
 }
 </style>
