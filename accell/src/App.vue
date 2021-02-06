@@ -5,6 +5,7 @@
       </div>
       <div id="nav-right">
         <router-link to="/login">SignUp</router-link>
+        <router-link to="/chat">Chat</router-link>
         <router-link to="/about">About Us</router-link>
       </div>
     </div>
