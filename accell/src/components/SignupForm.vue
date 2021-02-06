@@ -82,5 +82,8 @@ button:hover{
   form{
     width: 80vw;
   }
+  button{
+    width: 90%;
+  }
 }
 </style>
