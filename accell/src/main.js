@@ -4,13 +4,14 @@ import App from './App.vue'
 import SignupForm from './components/SignupForm.vue'
 import Chat from './components/Chat.vue'
 import TutorMap from './components/TutorMap.vue'
+import Home from './components/Home.vue'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
 const routes = [
-  {path:'/home',
-name: 'App',
-component: App},
+  {path:'/',
+name: 'Home',
+component: Home},
 {path:'/login',
 name: 'SignUpForm',
 component: SignupForm},

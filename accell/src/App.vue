@@ -10,6 +10,7 @@
         <router-link to="/chat">Chat</router-link>
       </div>
     </div>
+
     <router-view></router-view>
   </div>
 </template>

@@ -75,7 +75,7 @@ body{
   padding: 0;
 }
 h1 {
-  margin-top: 3em;
+  margin-top: 2em;
 }
 .chatMain {
   display: flex;
@@ -103,7 +103,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   background-color: #2082a2;
-  height: 60%;
+  height: 70%;
   width: 40%;
   margin: 1em;
   border-radius: 2em;
@@ -114,7 +114,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   background-color: #2082a2;
-  height: 60%;
+  height: 70%;
   width: 50%;
   margin: 1em;
   border-radius: 2em;
@@ -129,7 +129,7 @@ h1 {
   overflow: hidden;
 }
 .chatBox1 {
-  height: 80%;
+  height: 70%;
   width: 80%;
   border-radius: 2em;
   display: flex;
@@ -178,6 +178,28 @@ li {
   }
   .chats{
   width: 100vw;
+  padding: 0;
+  margin: 0;
+  }
+  h1{
+    margin: 0;
+  }
+  h2{
+    margin: .2em;
+  }
+  .chatBox{
+    width: 95%;
+  }
+  li{
+    width: 100%;
+    margin: .4em;
+  }
+  ul{
+    margin: .4em;
+    padding: 0;
+  }
+  .computerMessages{
+    width: 50%;
   }
 }
 </style>
