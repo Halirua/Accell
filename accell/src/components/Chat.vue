@@ -4,7 +4,7 @@
     <div class="chats">
       <div class="videoChat">
         <h2>Video Chat</h2>
-        <div class="chatBox"></div>
+        <div class="chatBox1"></div>
       </div>
       <div class="textChat">
         <h2>Chat</h2>
@@ -70,6 +70,10 @@ export default {
 </script>
 
 <style scoped>
+body{
+  margin: 0;
+  padding: 0;
+}
 h1 {
   margin-top: 3em;
 }
@@ -77,9 +81,10 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
+  background-color: #e7f6fa;
   padding: 1em;
   height: 100vh;
+  width: 100vw;
 }
 .chats {
   display: flex;
@@ -102,6 +107,7 @@ h1 {
   width: 40%;
   margin: 1em;
   border-radius: 2em;
+  overflow: hidden;
 }
 .textChat {
   display: flex;
@@ -121,6 +127,16 @@ h1 {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+}
+.chatBox1 {
+  height: 80%;
+  width: 80%;
+  border-radius: 2em;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: white;
+
 }
 .computerMessages {
   width: 40%;
@@ -161,7 +177,7 @@ li {
     margin-bottom: 30%;
   }
   .chats{
-  width: 100vh;
+  width: 100vw;
   }
 }
 </style>

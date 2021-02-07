@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="mainForm">
     <form @submit.prevent="">
       <h1>Sign Up and Accellerate your learning!</h1>
       <label for="name">Name</label>
@@ -28,11 +28,13 @@ export default {
 </script>
 
 <style >
-.main {
+.mainForm {
   height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  background-color: #e7f6fa;
 }
 
 input {
@@ -84,6 +86,9 @@ button:hover{
   }
   button{
     width: 90%;
+  }
+  .mainForm{
+    width: 100%;
   }
 }
 </style>

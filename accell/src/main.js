@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import App from './App.vue'
 import SignupForm from './components/SignupForm.vue'
 import Chat from './components/Chat.vue'
+import TutorMap from './components/TutorMap.vue'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
@@ -16,6 +17,9 @@ component: SignupForm},
 {path:'/chat',
 name: 'Chat',
 component: Chat},
+{path:'/map',
+name: 'TutorMap',
+component: TutorMap},
 ]
 
 const router = new VueRouter({

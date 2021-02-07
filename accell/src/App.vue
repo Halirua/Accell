@@ -1,12 +1,13 @@
 <template>
-  <div id="app"> <div id="nav">
+  <div id="app">
+    <div id="nav">
       <div id="nav-left">
         <router-link to="/">Home</router-link>
       </div>
       <div id="nav-right">
         <router-link to="/login">SignUp</router-link>
+        <router-link to="/map">Map</router-link>
         <router-link to="/chat">Chat</router-link>
-        <router-link to="/about">About Us</router-link>
       </div>
     </div>
     <router-view></router-view>
@@ -14,17 +15,15 @@
 </template>
 
 <script>
-
 export default {
-  name: 'App',
-  components: {
-  }
-}
+  name: "App",
+  components: {},
+};
 </script>
 
 <style>
-body{
-  margin: 0
+body {
+  margin: 0;
 }
 #nav {
   padding: 30px;
@@ -40,7 +39,7 @@ body{
   justify-content: flex-end;
   margin: 0;
 }
-#nav-left{
+#nav-left {
   display: flex;
   align-items: center;
 }
@@ -48,8 +47,8 @@ body{
   font-weight: bold;
   color: #061b22;
   font-size: 2em;
-  margin: 0 .6em;
-   text-decoration: none;
+  margin: 0 0.6em;
+  text-decoration: none;
 }
 #nav a:hover {
   color: #1f82a2;
@@ -60,10 +59,9 @@ body{
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 600px){
-#nav a{
-  font-size: 20px;
+@media only screen and (max-width: 600px) {
+  #nav a {
+    font-size: 20px;
+  }
 }
-}
-
 </style>
